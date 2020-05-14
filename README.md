@@ -13,13 +13,17 @@ This Tool is very useful as it replaces the Excel-Sheets and manual grepping of 
 
 ## Installation 
 
-1. git clone [repo-url.git]
-1. Set up your own Telegram bot with the help of @Botfather 
-1. Fill in the Chat-ID, Bot ID and where the File for Grepping is place 
+1. git clone https://github.com/Rdago/OOB-DNS-Notifier.git
+1. Set up your own Telegram bot with the help of @Botfather (see Tutorial below)
+1. Fill in the Chat-ID, Bot ID and where the File for Grepping is placed
 1. put this skript into your crontab like so: 
 ```
 @reboot /bin/bash /path/to/skript/monitor.sh
 ```
+
+## Tips and Tricks 
+
+I build myself a really ugly but working UI on my Webspace in order to add & delete the Grepping Information so I have a nice overview of my payloads out in the wild and where they belong. 
 
 ## How to Setup Telegram-Bot?
 
